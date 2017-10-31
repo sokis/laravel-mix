@@ -7,7 +7,9 @@
     "webpack": "webpack --progress --hide-modules",
     "dev": "webpack --watch --progress --hide-modules",
     "hmr": "webpack-dev-server --inline --hot",
-    "production": "cross-env NODE_ENV=production && webpack --progress --hide-modules"
+    "production": "cross-env NODE_ENV=production && webpack --progress --hide-modules",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "postcss": {
     "plugins": {
@@ -49,6 +51,8 @@
     "vue-template-compiler": "^2.1.4",
     "webpack": "^2.1.0-beta.27",
     "webpack-dev-server": "^2.1.0-beta.12",
-    "webpack-notifier": "^1.4.1"
-  }
+    "webpack-notifier": "^1.4.1",
+    "snyk": "^1.47.0"
+  },
+  "snyk": true
 }
