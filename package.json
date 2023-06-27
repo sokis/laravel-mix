@@ -36,7 +36,7 @@
     "fs": "0.0.1-security",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
-    "node-sass": "^4.0.0",
+    "node-sass": "^6.0.1",
     "on-build-webpack": "^0.1.0",
     "path": "^0.12.7",
     "postcss-load-config": "^1.0.0",
@@ -47,8 +47,8 @@
     "uglify-js": "^2.7.5",
     "vue-loader": "^10.0.2",
     "vue-template-compiler": "^2.1.4",
-    "webpack": "^2.1.0-beta.27",
-    "webpack-dev-server": "^2.1.0-beta.12",
+    "webpack": "^4.0.0",
+    "webpack-dev-server": "^4.6.0",
     "webpack-notifier": "^1.4.1"
   }
 }
